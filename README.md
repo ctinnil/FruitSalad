@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+## Welcome to FruitSalad 
 
-You can use the [editor on GitHub](https://github.com/ctinnil/FruitSalad/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+The project's purpose is to showcase the advantages of a Reactive WiFi honeypot system to deter potential attackers that engage in deauthentication probing to gather EAPOL handshakes and gain unauthorized access to victim wireless networks.
+We focused on WPA since today's wireless landscape lack Open and WEP secured networks, even for embedded devices and IoT systems.
+The Jupyter notebooks follow the ML well-established lifecycle:
+-	Mission definition
+-	Dataset preparation
+-	Data exploitation  
+-	Model construction 
+-	and Deployment 
+-	
+### Some helpful remarks to get you started 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* You may encounter difficulties in viewing the .ipynb files. This issue is well known in the Github community ( [#reference](https://github.com/jupyter/notebook/issues/3035) ). To be sure, here is a workaround. All you need to do is visit [nbviewer](https://nbviewer.jupyter.org/) and pass the desired notebook link to inspect it quickly and effortlessly. 
 
-### Markdown
+* As you have probably noticed by now, I used [Google Colab]( https://colab.research.google.com/) to conduct my POC. To get your own training data and monitor for future attacks, you need to connect the Colab notebook to a locally hosted Jupyter Server. I have used Kali Linux as my based system due to its built-in variety of tools. Find below full specs and integration workflow.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+1. Run the following commands:
+```zsh
+python3 -m pip install jupyterlab jupyter_http_over_ws
+jupyter serverextension enable --py jupyter_http_over_ws
+jupyter notebook  --NotebookApp.allow_origin='https://colab.research.google.com'   --port=8888   --NotebookApp.port_retries=0
 ```
+2. Now go to Colab, click the "Connect" button, select "Connect to local runtime", and enter the URL yelled by the last command from the previous batch.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Buy Me a Coffee
 
-### Jekyll Themes
+<just a placeholder>
+  https://www.buymeacoffee.com/
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ctinnil/FruitSalad/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Repository Citation
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+  <just a placeholder>
+    https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/archiving-a-github-repository/referencing-and-citing-content
+    https://github.com/AASJournals/Tutorials/blob/master/Repositories/CitingRepositories.md
