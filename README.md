@@ -13,4 +13,4 @@ FruitSalad represents our POC for a full **reactive WiFi honeypot**. Try it out,
 
 # Coming Soon 
 
-# July 01-03, 2021 - ECAI 2021, 13th editionof the international conference on Electronics, Computers and Artificial Intelligence, at http://www.ecai.ro/
+# July 01-03, 2021 - ECAI 2021, 13th edition of the international conference on Electronics, Computers and Artificial Intelligence, at http://www.ecai.ro/
