@@ -5,7 +5,7 @@ FruitSalad represents our POC for a full **reactive WiFi honeypot**. Try it out,
 ![fruitsalad 001](https://user-images.githubusercontent.com/69745175/121582920-4c2e1580-ca38-11eb-911b-c905587ddcb5.png)
 
 <p align="center">
- <a href="https://zenodo.org/badge/latestdoi/341436067"><img src="https://zenodo.org/badge/341436067.svg" alt="DOI"></a>
+ <a href="https://doi.org/10.5281/zenodo.4924536"><img src="https://zenodo.org/badge/341436067.svg" alt="DOI"></a>
   <a href="https://twitter.com/intent/tweet?text=FruitSalad+-+a+reactive+WiFi+honeypot&amp;url=https%3A%2F%2Fgithub.com%2Fctinnil%FruitSalad.git&amp;via=ctinnil">
       <img src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fctinnil%FruitSalad.git" alt="Tweet">
   </a>
