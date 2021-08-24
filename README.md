@@ -6,11 +6,20 @@ FruitSalad represents our POC for a full **reactive WiFi honeypot**. Try it out,
 
 <p align="center">
      <a href="https://doi.org/10.5281/zenodo.4924536"><img src="https://zenodo.org/badge/341436067.svg" alt="DOI"></a>
+     <a href="https://doi.org/10.1109/ECAI52376.2021.9515048"><img src="https://img.shields.io/badge/DOI-10.1109%2FECAI52376.2021.9515048-blue" alt="DOI"></a>
      <a href="https://twitter.com/intent/tweet?text=FruitSalad+-+a+reactive+WiFi+honeypot&amp;url=https%3A%2F%2Fgithub.com%2Fctinnil%FruitSalad.git&amp;via=ctinnil">
           <img src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fctinnil%FruitSalad.git" alt="Tweet">
      </a>
 </p>
 
-# Coming Soon 
+# More Coming Soon 
 
-# July 01-03, 2021 - ECAI 2021, 13th edition of the international conference on Electronics, Computers and Artificial Intelligence, at http://www.ecai.ro/
+... in Wiki
+
+### Reference
+
+If you find this code useful for your research, please cite
+
+```BibTex
+@INPROCEEDINGS{9515048,  author={Nilă, Constantin and Preda, Marius and Apostol, Ioana and Patriciu, Victor-Valeriu},  booktitle={2021 13th International Conference on Electronics, Computers and Artificial Intelligence (ECAI)},   title={Reactive WiFi honeypot},   year={2021},  volume={},  number={},  pages={1-6},  doi={10.1109/ECAI52376.2021.9515048}}
+```
