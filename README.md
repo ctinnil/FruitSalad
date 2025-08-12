@@ -9,6 +9,19 @@ FruitSalad represents our POC for a full **reactive WiFi honeypot**. Try it out,
      <a href="https://doi.org/10.1109/ECAI52376.2021.9515048"><img src="https://img.shields.io/badge/DOI-10.1109%2FECAI52376.2021.9515048-blue" alt="DOI"></a>
 </p>
 
+## Spread the Word 
+
+We’d love your help to grow **FruitSalad**!  
+If you find this project helpful, please share it with your friends, colleagues, or communities—on social media, newsletters, or blogs. Every mention helps us reach more people who might benefit from it.
+
+You can also support the project directly and [![Support FruitSalad](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-yellow?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/ctinnil)
+
+ —it means a lot and helps keep everything running!
+
+Thank you for being part of our journey and for helping **FruitSalad** thrive 🚀
+
+---
+
 ### Reference
 
 If you find this code useful for your research, please cite
